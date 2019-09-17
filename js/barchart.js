@@ -43,9 +43,9 @@ let yAxisGroup = svg.append("g")
 
 
 function renderBarChart(data) {
-
+    console.log(data,'hi')
     // Check array length (top 5 attractions)
-    if(data.length > 5) {
+    if(data.length > 5) {
         errorMessage("Max 5 rows");
         return;
     }
@@ -114,7 +114,7 @@ function renderBarChart(data) {
 }
 
 
-function errorMessage(message) {
+function errorMessage(message) {
     console.log(message);
 }
 
@@ -127,4 +127,3 @@ function shortenString(content, maxLength){
 
     return trimmedString;
 }
-

@@ -9,6 +9,8 @@
 		<!-- Load CSS libraries -->
 		<link rel="stylesheet" href="css/milligram.min.css">
 		<link rel="stylesheet" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
+
 
 		<style>
 			/* *** ADD CUSTOM STYLES HERE *** */
@@ -23,7 +25,7 @@
 		<h1>Global Attractions Attendance</h1>
 
 		<div class="user-control">
-			<select id="attraction-category" class="form-control">
+			<select id="SELECT-ID" class="form-control" onchange="dataManipulation()">
 			  <option value="all">All Attractions</option>
 			  <option value="Theme Park">Theme Park</option>
 			  <option value="Water Park">Water Park</option>
@@ -49,5 +51,36 @@
 
 	<!-- *** ADD JS CODE TO THE FOLLOWING FILE: *** -->
 	<script src="js/lab2.js"></script>
+	<script>
+		// console.log(attractionData);
+
+
+// 	numberSort = function (a,b) {
+//     return b.Visitors - a.Visitors;
+// };
+
+
+//  	dataFiltering=()=>{
+// 	var attractions = attractionData;
+// 	museums = []
+// 	themeP = []
+// 	waterP = []
+// 	visitors = []
+// 	attractions.forEach(element => {
+// 		let x= visitors.push(visitors.Math.max())
+// 		console.log(x);
+// 	});
+	
+
+// 	return attractions.splice(0,5);
+//  };
+ 	
+
+	
+	// renderBarChart(attractionData);
+	
+	
+	
+	</script> 
 	</body>
 </html>
